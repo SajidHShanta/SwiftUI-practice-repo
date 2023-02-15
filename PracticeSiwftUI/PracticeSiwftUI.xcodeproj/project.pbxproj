@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FFE60599299CFF740002BA40 /* MagnificationGesture-learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE60598299CFF740002BA40 /* MagnificationGesture-learn.swift */; };
+		FFE6059B299D41160002BA40 /* MagnificationGesture-Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6059A299D41160002BA40 /* MagnificationGesture-Example.swift */; };
 		FFF85FAC29950D0400ED6EAE /* PracticeSiwftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF85FAB29950D0400ED6EAE /* PracticeSiwftUIApp.swift */; };
 		FFF85FAE29950D0400ED6EAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF85FAD29950D0400ED6EAE /* ContentView.swift */; };
 		FFF85FB029950D0600ED6EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF85FAF29950D0600ED6EAE /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		FFE60598299CFF740002BA40 /* MagnificationGesture-learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MagnificationGesture-learn.swift"; sourceTree = "<group>"; };
+		FFE6059A299D41160002BA40 /* MagnificationGesture-Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MagnificationGesture-Example.swift"; sourceTree = "<group>"; };
 		FFF85FA829950D0400ED6EAE /* PracticeSiwftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSiwftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF85FAB29950D0400ED6EAE /* PracticeSiwftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeSiwftUIApp.swift; sourceTree = "<group>"; };
 		FFF85FAD29950D0400ED6EAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				FFE60598299CFF740002BA40 /* MagnificationGesture-learn.swift */,
+				FFE6059A299D41160002BA40 /* MagnificationGesture-Example.swift */,
 			);
 			path = MagnificationGesture;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE6059B299D41160002BA40 /* MagnificationGesture-Example.swift in Sources */,
 				FFF85FAE29950D0400ED6EAE /* ContentView.swift in Sources */,
 				FFF85FAC29950D0400ED6EAE /* PracticeSiwftUIApp.swift in Sources */,
 				FFE60599299CFF740002BA40 /* MagnificationGesture-learn.swift in Sources */,
