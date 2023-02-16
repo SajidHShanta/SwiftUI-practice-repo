@@ -11,7 +11,7 @@ import SwiftUI
 struct PracticeSiwftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            DragGesture_Learn()
+            DragGesture_Example_TinderCardSwipe()
         }
     }
 }
