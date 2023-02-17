@@ -11,24 +11,22 @@ struct DragGesture_Example_TinderCardSwipe: View {
     @State private var offset: CGSize = .zero
     
     var body: some View {
-        ZStack {
-            RoundedRectangle(cornerRadius: 20)
-                .frame(width: 300, height: 500)
-                .offset(offset)
-                .scaleEffect(getScaleAmount())
-                .rotationEffect(Angle(degrees: getRotationAmount()))
-                .gesture(
-                    DragGesture()
-                        .onChanged { value in
-                            withAnimation(.spring()) {
-                                offset = value.translation
-                            }
+        RoundedRectangle(cornerRadius: 20)
+            .frame(width: 300, height: 500)
+            .offset(offset)
+            .scaleEffect(getScaleAmount())
+            .rotationEffect(Angle(degrees: getRotationAmount()))
+            .gesture(
+                DragGesture()
+                    .onChanged { value in
+                        withAnimation(.spring()) {
+                            offset = value.translation
                         }
-                        .onEnded { value in
-                            offset = .zero
-                        }
-            )
-        }
+                    }
+                    .onEnded { value in
+                        offset = .zero
+                    }
+        )
     }
     
     func getScaleAmount() -> CGFloat {
