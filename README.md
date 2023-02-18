@@ -7,6 +7,8 @@ This repository is for keeping track of my SwiftUI practice
     * **[Magnification Gesture](PracticeSiwftUI/PracticeSiwftUI/MagnificationGesture):** It allow users to zoom-in and zoom-out on different images and objects on the screen.  real-world example- zooming in out on instagram post content.
     * **[Rotation Gesture](PracticeSiwftUI/PracticeSiwftUI/RotationGesture):** It allow users to easily rotate objects on the screen.
     * **[Drag Gesture](PracticeSiwftUI/PracticeSiwftUI/DragGesture):** It allow users to easily (and naturally) move items around the screen. real-world example- Tinder swipe card & swipe-up gesture to drag views up and down.
+* ## ScrollViewReader
+   [ScrollViewReader](PracticeSiwftUI/PracticeSiwftUI/ScrollViewReader) is a super-handy accessory to a ScrollView that allows programmatically scroll to a certain location within the ScrollView's content. It can quickly scroll to the top, bottom, or any specific item with just a few lines of code!
 * ## ..
 
 ## Acknowledgement
