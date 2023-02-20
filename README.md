@@ -9,6 +9,8 @@ This repository is for keeping track of my SwiftUI practice
     * **[Drag Gesture](PracticeSiwftUI/PracticeSiwftUI/DragGesture):** It allow users to easily (and naturally) move items around the screen. real-world example- Tinder swipe card & swipe-up gesture to drag views up and down.
 * ## ScrollViewReader
    [ScrollViewReader](PracticeSiwftUI/PracticeSiwftUI/ScrollViewReader) is a super-handy accessory to a ScrollView that allows programmatically scroll to a certain location within the ScrollView's content. It can quickly scroll to the top, bottom, or any specific item with just a few lines of code!
+* ## GeometryReader
+   [GeometryReader](PracticeSiwftUI/PracticeSiwftUI/GeometryReader) can find the contents exact size and location on the screen! Additionally, the GeometryReader is adaptive when the device rotates, so it is the perfect helper if we want to resize view when a user switched from portrait to landscape mode (or vice-versa).
 * ## ..
 
 ## Acknowledgement
