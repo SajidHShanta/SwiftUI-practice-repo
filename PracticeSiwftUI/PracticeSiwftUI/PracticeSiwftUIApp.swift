@@ -11,7 +11,7 @@ import SwiftUI
 struct PracticeSiwftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            GeometryReader_Learn()
+            GeometryReader_Example()
         }
     }
 }
