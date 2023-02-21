@@ -23,6 +23,7 @@
 		FFF85FB329950D0600ED6EAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF85FB229950D0600ED6EAE /* Preview Assets.xcassets */; };
 		FFF85FBD299526B000ED6EAE /* LongPressGesture-learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF85FBC299526B000ED6EAE /* LongPressGesture-learn.swift */; };
 		FFF85FBF2995281600ED6EAE /* LongPressGesture-Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF85FBE2995281600ED6EAE /* LongPressGesture-Example.swift */; };
+		FFFCBE6B29A5384F000AC0ED /* MultipleSheets_Practice1_Error_version.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE6A29A5384F000AC0ED /* MultipleSheets_Practice1_Error_version.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		FFF85FB229950D0600ED6EAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FFF85FBC299526B000ED6EAE /* LongPressGesture-learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LongPressGesture-learn.swift"; sourceTree = "<group>"; };
 		FFF85FBE2995281600ED6EAE /* LongPressGesture-Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LongPressGesture-Example.swift"; sourceTree = "<group>"; };
+		FFFCBE6A29A5384F000AC0ED /* MultipleSheets_Practice1_Error_version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets_Practice1_Error_version.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		FFF85FAA29950D0400ED6EAE /* PracticeSiwftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FFFCBE6729A52E28000AC0ED /* MultipleSheets */,
 				FFA7454429A3E3B80074AEBB /* GeometryReader */,
 				FFA7453D29A0F83E0074AEBB /* ScrollViewReader */,
 				FF019591299EA40C00EA57FF /* DragGesture */,
@@ -149,6 +152,14 @@
 				FFF85FBE2995281600ED6EAE /* LongPressGesture-Example.swift */,
 			);
 			path = LongPressGesture;
+			sourceTree = "<group>";
+		};
+		FFFCBE6729A52E28000AC0ED /* MultipleSheets */ = {
+			isa = PBXGroup;
+			children = (
+				FFFCBE6A29A5384F000AC0ED /* MultipleSheets_Practice1_Error_version.swift */,
+			);
+			path = MultipleSheets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +240,7 @@
 				FFF85FAE29950D0400ED6EAE /* ContentView.swift in Sources */,
 				FFF85FAC29950D0400ED6EAE /* PracticeSiwftUIApp.swift in Sources */,
 				FFE60599299CFF740002BA40 /* MagnificationGesture-learn.swift in Sources */,
+				FFFCBE6B29A5384F000AC0ED /* MultipleSheets_Practice1_Error_version.swift in Sources */,
 				FF019590299E9FE100EA57FF /* RotationGesture-Learn.swift in Sources */,
 				FFF85FBF2995281600ED6EAE /* LongPressGesture-Example.swift in Sources */,
 				FF019593299EA91E00EA57FF /* DragGesture-Learn.swift in Sources */,
