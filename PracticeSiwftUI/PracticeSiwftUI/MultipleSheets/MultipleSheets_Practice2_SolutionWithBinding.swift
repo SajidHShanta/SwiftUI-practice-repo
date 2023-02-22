@@ -1,18 +1,13 @@
 //
-//  MultipleSheets_Practice1_Error_version.swift
+//  MultipleSheets_Practice2_SolutionWithBinding.swift
 //  PracticeSiwftUI
 //
-//  Created by Sajid Shanta on 21/2/23.
+//  Created by Sajid Shanta on 22/2/23.
 //
 
 import SwiftUI
 
-struct EmniEktaModel: Identifiable {
-    let id = UUID().uuidString
-    let title: String
-}
-
-struct MultipleSheets_Practice1_Error_version: View {
+struct MultipleSheets_Practice2_SolutionWithBinding: View {
     @State private var selectedModel: EmniEktaModel = EmniEktaModel(title: "Starting Title")
     @State private var showSheet: Bool = false
     
@@ -28,13 +23,13 @@ struct MultipleSheets_Practice1_Error_version: View {
             }
         }
         .sheet(isPresented: $showSheet) {
-            NextScreen(selectedModel: selectedModel)
+            NextScreenWithBinding(selectedModel: $selectedModel)
         }
     }
 }
 
-struct NextScreen: View {
-    let selectedModel: EmniEktaModel
+struct NextScreenWithBinding: View {
+    @Binding var selectedModel: EmniEktaModel
     
     var body: some View {
         Text(selectedModel.title)
@@ -42,8 +37,8 @@ struct NextScreen: View {
     }
 }
 
-struct MultipleSheets_Practice1_Error_version_Previews: PreviewProvider {
+struct MultipleSheets_Practice2_SolutionWithBinding_Previews: PreviewProvider {
     static var previews: some View {
-        MultipleSheets_Practice1_Error_version()
+        MultipleSheets_Practice2_SolutionWithBinding()
     }
 }
