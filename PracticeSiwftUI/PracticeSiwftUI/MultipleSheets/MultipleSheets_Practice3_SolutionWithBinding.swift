@@ -1,5 +1,5 @@
 //
-//  MultipleSheets_Practice2_SolutionWithBinding.swift
+//  MultipleSheets_Practice3_SolutionWithBinding.swift
 //  PracticeSiwftUI
 //
 //  Created by Sajid Shanta on 22/2/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MultipleSheets_Practice2_SolutionWithBinding: View {
+struct MultipleSheets_Practice3_SolutionWithBinding: View {
     @State private var selectedModel: EmniEktaModel = EmniEktaModel(title: "Starting Title")
     @State private var showSheet: Bool = false
     
@@ -37,8 +37,8 @@ struct NextScreenWithBinding: View {
     }
 }
 
-struct MultipleSheets_Practice2_SolutionWithBinding_Previews: PreviewProvider {
+struct MultipleSheets_Practice3_SolutionWithBinding_Previews: PreviewProvider {
     static var previews: some View {
-        MultipleSheets_Practice2_SolutionWithBinding()
+        MultipleSheets_Practice3_SolutionWithBinding()
     }
 }

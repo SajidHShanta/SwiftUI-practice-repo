@@ -24,8 +24,9 @@
 		FFF85FBD299526B000ED6EAE /* LongPressGesture-learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF85FBC299526B000ED6EAE /* LongPressGesture-learn.swift */; };
 		FFF85FBF2995281600ED6EAE /* LongPressGesture-Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF85FBE2995281600ED6EAE /* LongPressGesture-Example.swift */; };
 		FFFCBE6B29A5384F000AC0ED /* MultipleSheets_Practice1_Error_version.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE6A29A5384F000AC0ED /* MultipleSheets_Practice1_Error_version.swift */; };
-		FFFCBE6D29A61001000AC0ED /* MultipleSheets_Practice2_SolutionWithBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE6C29A61001000AC0ED /* MultipleSheets_Practice2_SolutionWithBinding.swift */; };
+		FFFCBE6D29A61001000AC0ED /* MultipleSheets_Practice3_SolutionWithBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE6C29A61001000AC0ED /* MultipleSheets_Practice3_SolutionWithBinding.swift */; };
 		FFFCBE6F29A6129F000AC0ED /* MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE6E29A6129F000AC0ED /* MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift */; };
+		FFFCBE7129A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE7029A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,8 +48,9 @@
 		FFF85FBC299526B000ED6EAE /* LongPressGesture-learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LongPressGesture-learn.swift"; sourceTree = "<group>"; };
 		FFF85FBE2995281600ED6EAE /* LongPressGesture-Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LongPressGesture-Example.swift"; sourceTree = "<group>"; };
 		FFFCBE6A29A5384F000AC0ED /* MultipleSheets_Practice1_Error_version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets_Practice1_Error_version.swift; sourceTree = "<group>"; };
-		FFFCBE6C29A61001000AC0ED /* MultipleSheets_Practice2_SolutionWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets_Practice2_SolutionWithBinding.swift; sourceTree = "<group>"; };
+		FFFCBE6C29A61001000AC0ED /* MultipleSheets_Practice3_SolutionWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets_Practice3_SolutionWithBinding.swift; sourceTree = "<group>"; };
 		FFFCBE6E29A6129F000AC0ED /* MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift; sourceTree = "<group>"; };
+		FFFCBE7029A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets_Practice4_SolutionWithItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,8 +164,9 @@
 			isa = PBXGroup;
 			children = (
 				FFFCBE6A29A5384F000AC0ED /* MultipleSheets_Practice1_Error_version.swift */,
-				FFFCBE6C29A61001000AC0ED /* MultipleSheets_Practice2_SolutionWithBinding.swift */,
+				FFFCBE6C29A61001000AC0ED /* MultipleSheets_Practice3_SolutionWithBinding.swift */,
 				FFFCBE6E29A6129F000AC0ED /* MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift */,
+				FFFCBE7029A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift */,
 			);
 			path = MultipleSheets;
 			sourceTree = "<group>";
@@ -243,8 +246,9 @@
 				FF019599299FEF9400EA57FF /* DragGesture_Example_2.swift in Sources */,
 				FFA7454829A3E6D60074AEBB /* GeometryReader-Example.swift in Sources */,
 				FFFCBE6F29A6129F000AC0ED /* MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift in Sources */,
-				FFFCBE6D29A61001000AC0ED /* MultipleSheets_Practice2_SolutionWithBinding.swift in Sources */,
+				FFFCBE6D29A61001000AC0ED /* MultipleSheets_Practice3_SolutionWithBinding.swift in Sources */,
 				FFE6059B299D41160002BA40 /* MagnificationGesture-Example.swift in Sources */,
+				FFFCBE7129A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift in Sources */,
 				FFF85FAE29950D0400ED6EAE /* ContentView.swift in Sources */,
 				FFF85FAC29950D0400ED6EAE /* PracticeSiwftUIApp.swift in Sources */,
 				FFE60599299CFF740002BA40 /* MagnificationGesture-learn.swift in Sources */,
