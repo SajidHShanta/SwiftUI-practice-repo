@@ -11,7 +11,7 @@ import SwiftUI
 struct PracticeSiwftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            MultipleSheets_Practice1_Error_version()
+            MultipleSheets_Practice2_SolutionUsingMultipleSheets()
         }
     }
 }
