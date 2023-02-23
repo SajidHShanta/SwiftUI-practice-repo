@@ -28,6 +28,7 @@
 		FFFCBE6F29A6129F000AC0ED /* MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE6E29A6129F000AC0ED /* MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift */; };
 		FFFCBE7129A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE7029A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift */; };
 		FFFCBE7429A7DB35000AC0ED /* MaskModifier-Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE7329A7DB35000AC0ED /* MaskModifier-Practice.swift */; };
+		FFFCBE7629A7DD83000AC0ED /* MaskModifier_Practice2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE7529A7DD83000AC0ED /* MaskModifier_Practice2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		FFFCBE6E29A6129F000AC0ED /* MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift; sourceTree = "<group>"; };
 		FFFCBE7029A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets_Practice4_SolutionWithItem.swift; sourceTree = "<group>"; };
 		FFFCBE7329A7DB35000AC0ED /* MaskModifier-Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MaskModifier-Practice.swift"; sourceTree = "<group>"; };
+		FFFCBE7529A7DD83000AC0ED /* MaskModifier_Practice2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskModifier_Practice2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				FFFCBE7329A7DB35000AC0ED /* MaskModifier-Practice.swift */,
+				FFFCBE7529A7DD83000AC0ED /* MaskModifier_Practice2.swift */,
 			);
 			path = MaskModifier;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				FFE60599299CFF740002BA40 /* MagnificationGesture-learn.swift in Sources */,
 				FFFCBE6B29A5384F000AC0ED /* MultipleSheets_Practice1_Error_version.swift in Sources */,
 				FF019590299E9FE100EA57FF /* RotationGesture-Learn.swift in Sources */,
+				FFFCBE7629A7DD83000AC0ED /* MaskModifier_Practice2.swift in Sources */,
 				FFF85FBF2995281600ED6EAE /* LongPressGesture-Example.swift in Sources */,
 				FF019593299EA91E00EA57FF /* DragGesture-Learn.swift in Sources */,
 				FFA7454629A3E3CB0074AEBB /* GeometryReader-Learn.swift in Sources */,

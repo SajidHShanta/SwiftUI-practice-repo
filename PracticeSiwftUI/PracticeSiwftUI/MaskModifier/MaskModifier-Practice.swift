@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//bsic 5star rating implementation
 struct MaskModifier_Practice: View {
     @State var rating: Int =  3
     
