@@ -21,7 +21,12 @@ Three solutions are:
    [Mask modifier](PracticeSiwftUI/PracticeSiwftUI/MaskModifier) can make objects take the shape of others. It becomes extremely handle when creating complex animations. Here I create a basic star rating component, and then take it to the next level by applying a mask and custom animations. During the process, also learn how to use .allowsHitTesting() to disable touches on certain layers of the View. The end product looks very professional and is something we can use in production applications!
 * ## Sound Effects
    Add [Sound Effects](PracticeSiwftUI/PracticeSiwftUI/SoundEffect) to SwiftUI applications. To add sounds, I dip into the AVKit framework and learn how to use an AVAudioPlayer. I also learn how to implement a Singleton class so that it can be easily reused and accessed across an application.
+* ## Haptics and Vibrations
+   Add [Haptics and Vibrations](PracticeSiwftUI/PracticeSiwftUI/HapticsAndVibrations) to a SwiftUI application. We can choose from a few vibration types/styles that Apple provides to us. Which are: 
+   * types: success, warning, error
+   * styles: light, medium, heavy, rigid, soft
 
+   _(Note: in order to test haptics, we need to run the app on a real device)_
 
 * ## ..
 
