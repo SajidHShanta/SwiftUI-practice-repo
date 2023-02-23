@@ -17,7 +17,9 @@ Three solutions are:
    1.    using Binding
    2.    using multiple .sheet
    3.    using $item _(it is also helpful when we have a large number of sheets to present)_
-      
+* ## Mask modifier
+   [Mask modifier](PracticeSiwftUI/PracticeSiwftUI/MaskModifier) can make objects take the shape of others. It becomes extremely handle when creating complex animations. Here I create a basic star rating component, and then take it to the next level by applying a mask and custom animations. During the process, also learn how to use .allowsHitTesting() to disable touches on certain layers of the View. The end product looks very professional and is something we can use in production applications!
+
 * ## ..
 
 ## Acknowledgement
