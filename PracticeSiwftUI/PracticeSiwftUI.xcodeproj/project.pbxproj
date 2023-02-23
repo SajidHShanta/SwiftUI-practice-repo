@@ -32,6 +32,7 @@
 		FFFCBE7929A80C98000AC0ED /* SoundEffect-Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE7829A80C98000AC0ED /* SoundEffect-Practice.swift */; };
 		FFFCBE7C29A81F96000AC0ED /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFFCBE7B29A81F96000AC0ED /* tada.mp3 */; };
 		FFFCBE7E29A81FB3000AC0ED /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFFCBE7D29A81FB3000AC0ED /* badum.mp3 */; };
+		FFFCBE8129A82742000AC0ED /* HapticsAndVibrations-Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE8029A82742000AC0ED /* HapticsAndVibrations-Practice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		FFFCBE7829A80C98000AC0ED /* SoundEffect-Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SoundEffect-Practice.swift"; sourceTree = "<group>"; };
 		FFFCBE7B29A81F96000AC0ED /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		FFFCBE7D29A81FB3000AC0ED /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		FFFCBE8029A82742000AC0ED /* HapticsAndVibrations-Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HapticsAndVibrations-Practice.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		FFF85FAA29950D0400ED6EAE /* PracticeSiwftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FFFCBE7F29A82717000AC0ED /* HapticsAndVibrations */,
 				FFFCBE7729A80C43000AC0ED /* SoundEffect */,
 				FFFCBE7229A7DAFD000AC0ED /* MaskModifier */,
 				FFFCBE6729A52E28000AC0ED /* MultipleSheets */,
@@ -208,6 +211,14 @@
 				FFFCBE7D29A81FB3000AC0ED /* badum.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		FFFCBE7F29A82717000AC0ED /* HapticsAndVibrations */ = {
+			isa = PBXGroup;
+			children = (
+				FFFCBE8029A82742000AC0ED /* HapticsAndVibrations-Practice.swift */,
+			);
+			path = HapticsAndVibrations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 			files = (
 				FFA7454329A0FCBE0074AEBB /* ScrollViewReader_learn2.swift in Sources */,
 				FF019597299ED39000EA57FF /* DragGesture_Example_TinderCardSwipe.swift in Sources */,
+				FFFCBE8129A82742000AC0ED /* HapticsAndVibrations-Practice.swift in Sources */,
 				FF019599299FEF9400EA57FF /* DragGesture_Example_2.swift in Sources */,
 				FFFCBE7429A7DB35000AC0ED /* MaskModifier-Practice.swift in Sources */,
 				FFA7454829A3E6D60074AEBB /* GeometryReader-Example.swift in Sources */,
