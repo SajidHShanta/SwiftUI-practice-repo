@@ -29,6 +29,9 @@
 		FFFCBE7129A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE7029A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift */; };
 		FFFCBE7429A7DB35000AC0ED /* MaskModifier-Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE7329A7DB35000AC0ED /* MaskModifier-Practice.swift */; };
 		FFFCBE7629A7DD83000AC0ED /* MaskModifier_Practice2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE7529A7DD83000AC0ED /* MaskModifier_Practice2.swift */; };
+		FFFCBE7929A80C98000AC0ED /* SoundEffect-Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE7829A80C98000AC0ED /* SoundEffect-Practice.swift */; };
+		FFFCBE7C29A81F96000AC0ED /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFFCBE7B29A81F96000AC0ED /* tada.mp3 */; };
+		FFFCBE7E29A81FB3000AC0ED /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFFCBE7D29A81FB3000AC0ED /* badum.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 		FFFCBE7029A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets_Practice4_SolutionWithItem.swift; sourceTree = "<group>"; };
 		FFFCBE7329A7DB35000AC0ED /* MaskModifier-Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MaskModifier-Practice.swift"; sourceTree = "<group>"; };
 		FFFCBE7529A7DD83000AC0ED /* MaskModifier_Practice2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskModifier_Practice2.swift; sourceTree = "<group>"; };
+		FFFCBE7829A80C98000AC0ED /* SoundEffect-Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SoundEffect-Practice.swift"; sourceTree = "<group>"; };
+		FFFCBE7B29A81F96000AC0ED /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		FFFCBE7D29A81FB3000AC0ED /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,7 @@
 		FFF85FAA29950D0400ED6EAE /* PracticeSiwftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FFFCBE7729A80C43000AC0ED /* SoundEffect */,
 				FFFCBE7229A7DAFD000AC0ED /* MaskModifier */,
 				FFFCBE6729A52E28000AC0ED /* MultipleSheets */,
 				FFA7454429A3E3B80074AEBB /* GeometryReader */,
@@ -183,6 +190,24 @@
 				FFFCBE7529A7DD83000AC0ED /* MaskModifier_Practice2.swift */,
 			);
 			path = MaskModifier;
+			sourceTree = "<group>";
+		};
+		FFFCBE7729A80C43000AC0ED /* SoundEffect */ = {
+			isa = PBXGroup;
+			children = (
+				FFFCBE7A29A80ED4000AC0ED /* Sounds */,
+				FFFCBE7829A80C98000AC0ED /* SoundEffect-Practice.swift */,
+			);
+			path = SoundEffect;
+			sourceTree = "<group>";
+		};
+		FFFCBE7A29A80ED4000AC0ED /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FFFCBE7B29A81F96000AC0ED /* tada.mp3 */,
+				FFFCBE7D29A81FB3000AC0ED /* badum.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +268,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFFCBE7E29A81FB3000AC0ED /* badum.mp3 in Resources */,
+				FFFCBE7C29A81F96000AC0ED /* tada.mp3 in Resources */,
 				FFF85FB329950D0600ED6EAE /* Preview Assets.xcassets in Resources */,
 				FFF85FB029950D0600ED6EAE /* Assets.xcassets in Resources */,
 			);
@@ -261,6 +288,7 @@
 				FFFCBE7429A7DB35000AC0ED /* MaskModifier-Practice.swift in Sources */,
 				FFA7454829A3E6D60074AEBB /* GeometryReader-Example.swift in Sources */,
 				FFFCBE6F29A6129F000AC0ED /* MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift in Sources */,
+				FFFCBE7929A80C98000AC0ED /* SoundEffect-Practice.swift in Sources */,
 				FFFCBE6D29A61001000AC0ED /* MultipleSheets_Practice3_SolutionWithBinding.swift in Sources */,
 				FFE6059B299D41160002BA40 /* MagnificationGesture-Example.swift in Sources */,
 				FFFCBE7129A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift in Sources */,
