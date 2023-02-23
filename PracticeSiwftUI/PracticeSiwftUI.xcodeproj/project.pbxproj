@@ -27,6 +27,7 @@
 		FFFCBE6D29A61001000AC0ED /* MultipleSheets_Practice3_SolutionWithBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE6C29A61001000AC0ED /* MultipleSheets_Practice3_SolutionWithBinding.swift */; };
 		FFFCBE6F29A6129F000AC0ED /* MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE6E29A6129F000AC0ED /* MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift */; };
 		FFFCBE7129A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE7029A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift */; };
+		FFFCBE7429A7DB35000AC0ED /* MaskModifier-Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE7329A7DB35000AC0ED /* MaskModifier-Practice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		FFFCBE6C29A61001000AC0ED /* MultipleSheets_Practice3_SolutionWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets_Practice3_SolutionWithBinding.swift; sourceTree = "<group>"; };
 		FFFCBE6E29A6129F000AC0ED /* MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift; sourceTree = "<group>"; };
 		FFFCBE7029A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheets_Practice4_SolutionWithItem.swift; sourceTree = "<group>"; };
+		FFFCBE7329A7DB35000AC0ED /* MaskModifier-Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MaskModifier-Practice.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		FFF85FAA29950D0400ED6EAE /* PracticeSiwftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FFFCBE7229A7DAFD000AC0ED /* MaskModifier */,
 				FFFCBE6729A52E28000AC0ED /* MultipleSheets */,
 				FFA7454429A3E3B80074AEBB /* GeometryReader */,
 				FFA7453D29A0F83E0074AEBB /* ScrollViewReader */,
@@ -169,6 +172,14 @@
 				FFFCBE7029A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift */,
 			);
 			path = MultipleSheets;
+			sourceTree = "<group>";
+		};
+		FFFCBE7229A7DAFD000AC0ED /* MaskModifier */ = {
+			isa = PBXGroup;
+			children = (
+				FFFCBE7329A7DB35000AC0ED /* MaskModifier-Practice.swift */,
+			);
+			path = MaskModifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +255,7 @@
 				FFA7454329A0FCBE0074AEBB /* ScrollViewReader_learn2.swift in Sources */,
 				FF019597299ED39000EA57FF /* DragGesture_Example_TinderCardSwipe.swift in Sources */,
 				FF019599299FEF9400EA57FF /* DragGesture_Example_2.swift in Sources */,
+				FFFCBE7429A7DB35000AC0ED /* MaskModifier-Practice.swift in Sources */,
 				FFA7454829A3E6D60074AEBB /* GeometryReader-Example.swift in Sources */,
 				FFFCBE6F29A6129F000AC0ED /* MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift in Sources */,
 				FFFCBE6D29A61001000AC0ED /* MultipleSheets_Practice3_SolutionWithBinding.swift in Sources */,
