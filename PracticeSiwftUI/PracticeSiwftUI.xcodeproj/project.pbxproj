@@ -33,6 +33,7 @@
 		FFFCBE7C29A81F96000AC0ED /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFFCBE7B29A81F96000AC0ED /* tada.mp3 */; };
 		FFFCBE7E29A81FB3000AC0ED /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFFCBE7D29A81FB3000AC0ED /* badum.mp3 */; };
 		FFFCBE8129A82742000AC0ED /* HapticsAndVibrations-Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE8029A82742000AC0ED /* HapticsAndVibrations-Practice.swift */; };
+		FFFCBE8429A839D3000AC0ED /* Hashable-Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCBE8329A839D3000AC0ED /* Hashable-Learn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		FFFCBE7B29A81F96000AC0ED /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		FFFCBE7D29A81FB3000AC0ED /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		FFFCBE8029A82742000AC0ED /* HapticsAndVibrations-Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HapticsAndVibrations-Practice.swift"; sourceTree = "<group>"; };
+		FFFCBE8329A839D3000AC0ED /* Hashable-Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hashable-Learn.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		FFF85FAA29950D0400ED6EAE /* PracticeSiwftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FFFCBE8229A839C3000AC0ED /* Hashable */,
 				FFFCBE7F29A82717000AC0ED /* HapticsAndVibrations */,
 				FFFCBE7729A80C43000AC0ED /* SoundEffect */,
 				FFFCBE7229A7DAFD000AC0ED /* MaskModifier */,
@@ -219,6 +222,14 @@
 				FFFCBE8029A82742000AC0ED /* HapticsAndVibrations-Practice.swift */,
 			);
 			path = HapticsAndVibrations;
+			sourceTree = "<group>";
+		};
+		FFFCBE8229A839C3000AC0ED /* Hashable */ = {
+			isa = PBXGroup;
+			children = (
+				FFFCBE8329A839D3000AC0ED /* Hashable-Learn.swift */,
+			);
+			path = Hashable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +317,7 @@
 				FFFCBE7129A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift in Sources */,
 				FFF85FAE29950D0400ED6EAE /* ContentView.swift in Sources */,
 				FFF85FAC29950D0400ED6EAE /* PracticeSiwftUIApp.swift in Sources */,
+				FFFCBE8429A839D3000AC0ED /* Hashable-Learn.swift in Sources */,
 				FFE60599299CFF740002BA40 /* MagnificationGesture-learn.swift in Sources */,
 				FFFCBE6B29A5384F000AC0ED /* MultipleSheets_Practice1_Error_version.swift in Sources */,
 				FF019590299E9FE100EA57FF /* RotationGesture-Learn.swift in Sources */,
