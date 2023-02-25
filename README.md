@@ -27,6 +27,8 @@ Three solutions are:
    * styles: light, medium, heavy, rigid, soft
 
    _(Note: in order to test haptics, we need to run the app on a real device)_
+* ## Hashable protocol
+   [Hashable protocol](PracticeSiwftUI/PracticeSiwftUI/Hashable) is very similar to the Identifiable protocol, which is another way to give a unique identifier to an object. When we use hash values in SwiftUI applications, it's usually to let the system identify which object is which.
 
 * ## ..
 
