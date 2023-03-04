@@ -27,6 +27,13 @@ Three solutions are:
    * styles: light, medium, heavy, rigid, soft
 
    _(Note: in order to test haptics, we need to run the app on a real device)_
+* ## Local Notification
+   [Local Notifications](PracticeSiwftUI/PracticeSiwftUI/LocalPushNotifications) are scheduled locally and delivered by the same device. First request permissions from the user and then schedule the local notifications with 3 different **triggers**.
+   * [time](https://github.com/SajidHShanta/SwiftUI-practice-repo/commit/148f543bfdb06fbf814996e9e8ec757b69b844c2)
+   * [calendar / date](https://github.com/SajidHShanta/SwiftUI-practice-repo/commit/0542ec2e90dbcaba81445d763906f19730789aba)
+   * [location](https://github.com/SajidHShanta/SwiftUI-practice-repo/commit/60566ce4ebd2ddfb992839feb7bdbcaf94cebdee)
+   
+   and lastly we can [cancel all local notifications](https://github.com/SajidHShanta/SwiftUI-practice-repo/commit/455dd595dca070a95f462d9caee6068794b949c9).
 * ## Hashable protocol
    [Hashable protocol](PracticeSiwftUI/PracticeSiwftUI/Hashable) is very similar to the Identifiable protocol, which is another way to give a unique identifier to an object. When we use hash values in SwiftUI applications, it's usually to let the system identify which object is which.
 
