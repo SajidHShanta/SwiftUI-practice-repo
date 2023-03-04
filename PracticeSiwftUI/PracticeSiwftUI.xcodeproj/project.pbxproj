@@ -15,6 +15,7 @@
 		FFA7454329A0FCBE0074AEBB /* ScrollViewReader_learn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454229A0FCBE0074AEBB /* ScrollViewReader_learn2.swift */; };
 		FFA7454629A3E3CB0074AEBB /* GeometryReader-Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454529A3E3CB0074AEBB /* GeometryReader-Learn.swift */; };
 		FFA7454829A3E6D60074AEBB /* GeometryReader-Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454729A3E6D60074AEBB /* GeometryReader-Example.swift */; };
+		FFDF807529B3B58C004C50B9 /* LocalNotification-Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF807429B3B58C004C50B9 /* LocalNotification-Learn.swift */; };
 		FFE60599299CFF740002BA40 /* MagnificationGesture-learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE60598299CFF740002BA40 /* MagnificationGesture-learn.swift */; };
 		FFE6059B299D41160002BA40 /* MagnificationGesture-Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6059A299D41160002BA40 /* MagnificationGesture-Example.swift */; };
 		FFF85FAC29950D0400ED6EAE /* PracticeSiwftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF85FAB29950D0400ED6EAE /* PracticeSiwftUIApp.swift */; };
@@ -45,6 +46,7 @@
 		FFA7454229A0FCBE0074AEBB /* ScrollViewReader_learn2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_learn2.swift; sourceTree = "<group>"; };
 		FFA7454529A3E3CB0074AEBB /* GeometryReader-Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeometryReader-Learn.swift"; sourceTree = "<group>"; };
 		FFA7454729A3E6D60074AEBB /* GeometryReader-Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeometryReader-Example.swift"; sourceTree = "<group>"; };
+		FFDF807429B3B58C004C50B9 /* LocalNotification-Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalNotification-Learn.swift"; sourceTree = "<group>"; };
 		FFE60598299CFF740002BA40 /* MagnificationGesture-learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MagnificationGesture-learn.swift"; sourceTree = "<group>"; };
 		FFE6059A299D41160002BA40 /* MagnificationGesture-Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MagnificationGesture-Example.swift"; sourceTree = "<group>"; };
 		FFF85FA829950D0400ED6EAE /* PracticeSiwftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSiwftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +98,14 @@
 			path = DragGesture;
 			sourceTree = "<group>";
 		};
+		FFA1FAE529AA1DE90084A923 /* LocalPushNotifications  */ = {
+			isa = PBXGroup;
+			children = (
+				FFDF807429B3B58C004C50B9 /* LocalNotification-Learn.swift */,
+			);
+			path = "LocalPushNotifications ";
+			sourceTree = "<group>";
+		};
 		FFA7453D29A0F83E0074AEBB /* ScrollViewReader */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +152,7 @@
 		FFF85FAA29950D0400ED6EAE /* PracticeSiwftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FFA1FAE529AA1DE90084A923 /* LocalPushNotifications  */,
 				FFFCBE8229A839C3000AC0ED /* Hashable */,
 				FFFCBE7F29A82717000AC0ED /* HapticsAndVibrations */,
 				FFFCBE7729A80C43000AC0ED /* SoundEffect */,
@@ -305,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFA7454329A0FCBE0074AEBB /* ScrollViewReader_learn2.swift in Sources */,
+				FFDF807529B3B58C004C50B9 /* LocalNotification-Learn.swift in Sources */,
 				FF019597299ED39000EA57FF /* DragGesture_Example_TinderCardSwipe.swift in Sources */,
 				FFFCBE8129A82742000AC0ED /* HapticsAndVibrations-Practice.swift in Sources */,
 				FF019599299FEF9400EA57FF /* DragGesture_Example_2.swift in Sources */,

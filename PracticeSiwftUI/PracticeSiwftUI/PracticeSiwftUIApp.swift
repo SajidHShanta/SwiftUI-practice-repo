@@ -11,7 +11,7 @@ import SwiftUI
 struct PracticeSiwftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            Hashable_Learn()
+            LocalNotification_Learn()
         }
     }
 }
