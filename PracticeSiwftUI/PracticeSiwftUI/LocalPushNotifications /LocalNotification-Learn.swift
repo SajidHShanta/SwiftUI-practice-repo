@@ -55,6 +55,9 @@ struct LocalNotification_Learn: View {
                 NotificationManager.instance.scheduleNotification()
             }
         }
+        .onAppear {
+            UIApplication.shared.applicationIconBadgeNumber = 0
+        }
     }
 }
 
