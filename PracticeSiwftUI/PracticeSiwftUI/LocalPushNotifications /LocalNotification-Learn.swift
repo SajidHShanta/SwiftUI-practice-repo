@@ -22,6 +22,26 @@ class NotificationManager {
             }
         }
     }
+    
+    func scheduleNotification() {
+        let content = UNMutableNotificationContent()
+        content.title = "This is Notification Title"
+        content.subtitle = "This is subtitle!"
+        content.sound = .default
+        content.badge = 1
+        
+        // trigger can be 3 types:
+        // - time
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5.0, repeats: false)
+        // - calender
+        // - location
+        
+        let request = UNNotificationRequest(
+            identifier: UUID().uuidString, // random id. because in this scenario we don't need to track
+            content: content,
+            trigger: trigger)
+        UNUserNotificationCenter.current().add(request)
+    }
 }
 
 struct LocalNotification_Learn: View {
@@ -29,6 +49,10 @@ struct LocalNotification_Learn: View {
         VStack {
             Button("Request Permission") {
                 NotificationManager.instance.requestAuthorization()
+            }
+            
+            Button("Schedule Notification") {
+                NotificationManager.instance.scheduleNotification()
             }
         }
     }
