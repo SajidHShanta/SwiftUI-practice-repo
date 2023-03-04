@@ -7,6 +7,7 @@
 
 import SwiftUI
 import UserNotifications
+import CoreLocation
 
 class NotificationManager {
     static let instance = NotificationManager() //singleton
@@ -30,21 +31,31 @@ class NotificationManager {
         content.sound = .default
         content.badge = 1
         
-        // trigger can be 3 types:
+        // trigger can be 3 types: time, calendar, location
+        
         // - time
 //        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5.0, repeats: false)
         
         // - calendar
-        var dateComponents = DateComponents()
-        dateComponents.hour = 0
-        dateComponents.minute = 18
-        dateComponents.weekday = 2         // every sunday 12 : 18 AM
-//        dateComponents.weekOfMonth
-//        dateComponents.weekOfYear
-        
-        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+//        var dateComponents = DateComponents()
+//        dateComponents.hour = 0
+//        dateComponents.minute = 18
+//        dateComponents.weekday = 2         // every sunday 12 : 18 AM
+////        dateComponents.weekOfMonth
+////        dateComponents.weekOfYear
+//        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
         
         // - location
+        let coordinate = CLLocationCoordinate2D(
+            latitude: 20.0,
+            longitude: 30.0)
+        let region = CLCircularRegion(
+            center: coordinate,
+            radius: 50,
+            identifier: UUID().uuidString)
+        region.notifyOnEntry = true
+        region.notifyOnExit = false
+        let trigger = UNLocationNotificationTrigger(region: region, repeats: true)
         
         let request = UNNotificationRequest(
             identifier: UUID().uuidString, // random id. because in this scenario we don't need to track
