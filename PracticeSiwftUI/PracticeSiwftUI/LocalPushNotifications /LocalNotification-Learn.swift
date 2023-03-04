@@ -32,8 +32,18 @@ class NotificationManager {
         
         // trigger can be 3 types:
         // - time
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5.0, repeats: false)
-        // - calender
+//        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5.0, repeats: false)
+        
+        // - calendar
+        var dateComponents = DateComponents()
+        dateComponents.hour = 0
+        dateComponents.minute = 18
+        dateComponents.weekday = 2         // every sunday 12 : 18 AM
+//        dateComponents.weekOfMonth
+//        dateComponents.weekOfYear
+        
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+        
         // - location
         
         let request = UNNotificationRequest(
@@ -46,7 +56,7 @@ class NotificationManager {
 
 struct LocalNotification_Learn: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 50.0) {
             Button("Request Permission") {
                 NotificationManager.instance.requestAuthorization()
             }
