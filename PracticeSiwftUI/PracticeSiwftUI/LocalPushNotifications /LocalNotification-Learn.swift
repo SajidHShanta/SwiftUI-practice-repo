@@ -63,6 +63,11 @@ class NotificationManager {
             trigger: trigger)
         UNUserNotificationCenter.current().add(request)
     }
+    
+    func cancelNotification() {
+        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+        UNUserNotificationCenter.current().removeAllDeliveredNotifications()
+    }
 }
 
 struct LocalNotification_Learn: View {
@@ -75,6 +80,11 @@ struct LocalNotification_Learn: View {
             Button("Schedule Notification") {
                 NotificationManager.instance.scheduleNotification()
             }
+            
+            Button("Cancel All Notification") {
+                NotificationManager.instance.cancelNotification()
+            }
+            .foregroundColor(.red)
         }
         .onAppear {
             UIApplication.shared.applicationIconBadgeNumber = 0
