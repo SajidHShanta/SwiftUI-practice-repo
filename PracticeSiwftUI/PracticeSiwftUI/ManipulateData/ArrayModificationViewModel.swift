@@ -33,9 +33,11 @@ class ArrayModificationViewModel: ObservableObject {
     
     func getFilteredUsers() {
         // sort
-        filteredUserArray = userArray.sorted(by: {$0.points > $1.points})
+//        filteredUserArray = userArray.sorted(by: {$0.points > $1.points})
         
         // filter
+        filteredUserArray = userArray.filter({$0.isVerified})
+        
         // map
     }
 }
