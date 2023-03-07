@@ -13,7 +13,7 @@
 		FF019599299FEF9400EA57FF /* DragGesture_Example_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF019598299FEF9400EA57FF /* DragGesture_Example_2.swift */; };
 		FF6A5F9229B755110094B020 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9129B755110094B020 /* UserModel.swift */; };
 		FF6A5F9429B755960094B020 /* ArrayModificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9329B755960094B020 /* ArrayModificationViewModel.swift */; };
-		FF6A5F9629B757BD0094B020 /* SortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9529B757BD0094B020 /* SortView.swift */; };
+		FF6A5F9829B76B5E0094B020 /* ManipulateDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9729B76B5E0094B020 /* ManipulateDataView.swift */; };
 		FFA7454129A0F98D0074AEBB /* ScrollViewReader-learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454029A0F98D0074AEBB /* ScrollViewReader-learn.swift */; };
 		FFA7454329A0FCBE0074AEBB /* ScrollViewReader_learn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454229A0FCBE0074AEBB /* ScrollViewReader_learn2.swift */; };
 		FFA7454629A3E3CB0074AEBB /* GeometryReader-Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454529A3E3CB0074AEBB /* GeometryReader-Learn.swift */; };
@@ -47,7 +47,7 @@
 		FF019598299FEF9400EA57FF /* DragGesture_Example_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_Example_2.swift; sourceTree = "<group>"; };
 		FF6A5F9129B755110094B020 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		FF6A5F9329B755960094B020 /* ArrayModificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayModificationViewModel.swift; sourceTree = "<group>"; };
-		FF6A5F9529B757BD0094B020 /* SortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortView.swift; sourceTree = "<group>"; };
+		FF6A5F9729B76B5E0094B020 /* ManipulateDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManipulateDataView.swift; sourceTree = "<group>"; };
 		FFA7454029A0F98D0074AEBB /* ScrollViewReader-learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollViewReader-learn.swift"; sourceTree = "<group>"; };
 		FFA7454229A0FCBE0074AEBB /* ScrollViewReader_learn2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_learn2.swift; sourceTree = "<group>"; };
 		FFA7454529A3E3CB0074AEBB /* GeometryReader-Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeometryReader-Learn.swift"; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 			children = (
 				FF6A5F9129B755110094B020 /* UserModel.swift */,
 				FF6A5F9329B755960094B020 /* ArrayModificationViewModel.swift */,
-				FF6A5F9529B757BD0094B020 /* SortView.swift */,
+				FF6A5F9729B76B5E0094B020 /* ManipulateDataView.swift */,
 			);
 			path = ManipulateData;
 			sourceTree = "<group>";
@@ -336,6 +336,7 @@
 				FFDF807529B3B58C004C50B9 /* LocalNotification-Learn.swift in Sources */,
 				FF019597299ED39000EA57FF /* DragGesture_Example_TinderCardSwipe.swift in Sources */,
 				FFFCBE8129A82742000AC0ED /* HapticsAndVibrations-Practice.swift in Sources */,
+				FF6A5F9829B76B5E0094B020 /* ManipulateDataView.swift in Sources */,
 				FF019599299FEF9400EA57FF /* DragGesture_Example_2.swift in Sources */,
 				FFFCBE7429A7DB35000AC0ED /* MaskModifier-Practice.swift in Sources */,
 				FFA7454829A3E6D60074AEBB /* GeometryReader-Example.swift in Sources */,
@@ -356,7 +357,6 @@
 				FF019593299EA91E00EA57FF /* DragGesture-Learn.swift in Sources */,
 				FF6A5F9429B755960094B020 /* ArrayModificationViewModel.swift in Sources */,
 				FFA7454629A3E3CB0074AEBB /* GeometryReader-Learn.swift in Sources */,
-				FF6A5F9629B757BD0094B020 /* SortView.swift in Sources */,
 				FFF85FBD299526B000ED6EAE /* LongPressGesture-learn.swift in Sources */,
 				FFA7454129A0F98D0074AEBB /* ScrollViewReader-learn.swift in Sources */,
 			);

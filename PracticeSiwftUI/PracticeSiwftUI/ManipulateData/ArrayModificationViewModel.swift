@@ -9,8 +9,11 @@ import Foundation
 
 class ArrayModificationViewModel: ObservableObject {
     @Published var userArray: [UserModel] = []
+    @Published var filteredUserArray: [UserModel] = []
+
     init() {
         getUsers()
+        getFilteredUsers()
     }
     
     func getUsers() {
@@ -26,5 +29,13 @@ class ArrayModificationViewModel: ObservableObject {
         let user10 = UserModel(name: "Authoy", points: 21, isVerified: false)
         
         self.userArray.append(contentsOf: [user1, user2, user3, user4, user5, user6, user7, user8, user9, user10])
+    }
+    
+    func getFilteredUsers() {
+        // sort
+        filteredUserArray = userArray.sorted(by: {$0.points > $1.points})
+        
+        // filter
+        // map
     }
 }
