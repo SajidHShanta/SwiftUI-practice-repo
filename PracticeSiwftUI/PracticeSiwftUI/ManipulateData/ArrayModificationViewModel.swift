@@ -10,6 +10,7 @@ import Foundation
 class ArrayModificationViewModel: ObservableObject {
     @Published var userArray: [UserModel] = []
     @Published var filteredUserArray: [UserModel] = []
+    @Published var mappedArray: [String] = []
 
     init() {
         getUsers()
@@ -36,8 +37,12 @@ class ArrayModificationViewModel: ObservableObject {
 //        filteredUserArray = userArray.sorted(by: {$0.points > $1.points})
         
         // filter
-        filteredUserArray = userArray.filter({$0.isVerified})
+//        filteredUserArray = userArray.filter({$0.isVerified})
         
         // map
+//        mappedArray = userArray.map({ user -> String in
+//            user.name
+//        })
+        mappedArray = userArray.map({$0.name})
     }
 }

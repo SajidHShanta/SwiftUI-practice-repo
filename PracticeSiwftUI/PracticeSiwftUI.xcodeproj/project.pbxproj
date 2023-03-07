@@ -14,6 +14,7 @@
 		FF6A5F9229B755110094B020 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9129B755110094B020 /* UserModel.swift */; };
 		FF6A5F9429B755960094B020 /* ArrayModificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9329B755960094B020 /* ArrayModificationViewModel.swift */; };
 		FF6A5F9829B76B5E0094B020 /* ManipulateDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9729B76B5E0094B020 /* ManipulateDataView.swift */; };
+		FF6A5F9A29B770420094B020 /* MappedArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9929B770420094B020 /* MappedArrayView.swift */; };
 		FFA7454129A0F98D0074AEBB /* ScrollViewReader-learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454029A0F98D0074AEBB /* ScrollViewReader-learn.swift */; };
 		FFA7454329A0FCBE0074AEBB /* ScrollViewReader_learn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454229A0FCBE0074AEBB /* ScrollViewReader_learn2.swift */; };
 		FFA7454629A3E3CB0074AEBB /* GeometryReader-Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454529A3E3CB0074AEBB /* GeometryReader-Learn.swift */; };
@@ -48,6 +49,7 @@
 		FF6A5F9129B755110094B020 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		FF6A5F9329B755960094B020 /* ArrayModificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayModificationViewModel.swift; sourceTree = "<group>"; };
 		FF6A5F9729B76B5E0094B020 /* ManipulateDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManipulateDataView.swift; sourceTree = "<group>"; };
+		FF6A5F9929B770420094B020 /* MappedArrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappedArrayView.swift; sourceTree = "<group>"; };
 		FFA7454029A0F98D0074AEBB /* ScrollViewReader-learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollViewReader-learn.swift"; sourceTree = "<group>"; };
 		FFA7454229A0FCBE0074AEBB /* ScrollViewReader_learn2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_learn2.swift; sourceTree = "<group>"; };
 		FFA7454529A3E3CB0074AEBB /* GeometryReader-Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeometryReader-Learn.swift"; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				FF6A5F9129B755110094B020 /* UserModel.swift */,
 				FF6A5F9329B755960094B020 /* ArrayModificationViewModel.swift */,
 				FF6A5F9729B76B5E0094B020 /* ManipulateDataView.swift */,
+				FF6A5F9929B770420094B020 /* MappedArrayView.swift */,
 			);
 			path = ManipulateData;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				FF019593299EA91E00EA57FF /* DragGesture-Learn.swift in Sources */,
 				FF6A5F9429B755960094B020 /* ArrayModificationViewModel.swift in Sources */,
 				FFA7454629A3E3CB0074AEBB /* GeometryReader-Learn.swift in Sources */,
+				FF6A5F9A29B770420094B020 /* MappedArrayView.swift in Sources */,
 				FFF85FBD299526B000ED6EAE /* LongPressGesture-learn.swift in Sources */,
 				FFA7454129A0F98D0074AEBB /* ScrollViewReader-learn.swift in Sources */,
 			);
