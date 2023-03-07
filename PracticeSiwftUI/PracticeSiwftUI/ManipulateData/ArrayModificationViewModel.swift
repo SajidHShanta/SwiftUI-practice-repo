@@ -46,6 +46,12 @@ class ArrayModificationViewModel: ObservableObject {
 //        mappedArray = userArray.map({$0.name})
         
         // if the user name is optional, then:
-        mappedArray = userArray.compactMap({$0.name})
+//        mappedArray = userArray.compactMap({$0.name})
+        
+        // sort-filter-map all together
+        mappedArray = userArray
+            .sorted(by: {$0.points > $1.points})
+            .filter({$0.isVerified})
+            .compactMap({$0.name})
     }
 }
