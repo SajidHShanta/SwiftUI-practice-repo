@@ -26,7 +26,7 @@ class ArrayModificationViewModel: ObservableObject {
         let user6 = UserModel(name: "Fiaz", points: 2, isVerified: true)
         let user7 = UserModel(name: "Sadi", points: 3, isVerified: true)
         let user8 = UserModel(name: "Mehedi", points: 14, isVerified: false)
-        let user9 = UserModel(name: "Nirob", points: 18, isVerified: true)
+        let user9 = UserModel(name: nil, points: 18, isVerified: true)
         let user10 = UserModel(name: "Authoy", points: 21, isVerified: false)
         
         self.userArray.append(contentsOf: [user1, user2, user3, user4, user5, user6, user7, user8, user9, user10])

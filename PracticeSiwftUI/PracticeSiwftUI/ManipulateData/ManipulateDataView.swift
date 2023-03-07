@@ -15,8 +15,8 @@ struct ManipulateDataView: View {
             VStack {
                 ForEach(vm.filteredUserArray) { user in
                     VStack(alignment: .leading) {
-                        Text(user.name)
-                            .font(.headline)
+//                        Text(user.name)
+//                            .font(.headline)
                         HStack {
                             Text("Points: \(user.points)")
                             Spacer()
