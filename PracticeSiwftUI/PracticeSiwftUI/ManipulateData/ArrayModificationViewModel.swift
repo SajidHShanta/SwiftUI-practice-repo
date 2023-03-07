@@ -43,6 +43,9 @@ class ArrayModificationViewModel: ObservableObject {
 //        mappedArray = userArray.map({ user -> String in
 //            user.name
 //        })
-        mappedArray = userArray.map({$0.name})
+//        mappedArray = userArray.map({$0.name})
+        
+        // if the user name is optional, then:
+        mappedArray = userArray.compactMap({$0.name})
     }
 }

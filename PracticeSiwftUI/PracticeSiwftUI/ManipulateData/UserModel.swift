@@ -9,7 +9,7 @@ import Foundation
 
 struct UserModel: Identifiable {
     let id = UUID().uuidString
-    let name: String
+    let name: String?
     let points: Int
     let isVerified: Bool
 }
