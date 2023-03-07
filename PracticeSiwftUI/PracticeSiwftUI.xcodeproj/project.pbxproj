@@ -11,6 +11,9 @@
 		FF019593299EA91E00EA57FF /* DragGesture-Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF019592299EA91E00EA57FF /* DragGesture-Learn.swift */; };
 		FF019597299ED39000EA57FF /* DragGesture_Example_TinderCardSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF019596299ED39000EA57FF /* DragGesture_Example_TinderCardSwipe.swift */; };
 		FF019599299FEF9400EA57FF /* DragGesture_Example_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF019598299FEF9400EA57FF /* DragGesture_Example_2.swift */; };
+		FF6A5F9229B755110094B020 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9129B755110094B020 /* UserModel.swift */; };
+		FF6A5F9429B755960094B020 /* ArrayModificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9329B755960094B020 /* ArrayModificationViewModel.swift */; };
+		FF6A5F9629B757BD0094B020 /* SortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9529B757BD0094B020 /* SortView.swift */; };
 		FFA7454129A0F98D0074AEBB /* ScrollViewReader-learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454029A0F98D0074AEBB /* ScrollViewReader-learn.swift */; };
 		FFA7454329A0FCBE0074AEBB /* ScrollViewReader_learn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454229A0FCBE0074AEBB /* ScrollViewReader_learn2.swift */; };
 		FFA7454629A3E3CB0074AEBB /* GeometryReader-Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454529A3E3CB0074AEBB /* GeometryReader-Learn.swift */; };
@@ -42,6 +45,9 @@
 		FF019592299EA91E00EA57FF /* DragGesture-Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DragGesture-Learn.swift"; sourceTree = "<group>"; };
 		FF019596299ED39000EA57FF /* DragGesture_Example_TinderCardSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_Example_TinderCardSwipe.swift; sourceTree = "<group>"; };
 		FF019598299FEF9400EA57FF /* DragGesture_Example_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_Example_2.swift; sourceTree = "<group>"; };
+		FF6A5F9129B755110094B020 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		FF6A5F9329B755960094B020 /* ArrayModificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayModificationViewModel.swift; sourceTree = "<group>"; };
+		FF6A5F9529B757BD0094B020 /* SortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortView.swift; sourceTree = "<group>"; };
 		FFA7454029A0F98D0074AEBB /* ScrollViewReader-learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollViewReader-learn.swift"; sourceTree = "<group>"; };
 		FFA7454229A0FCBE0074AEBB /* ScrollViewReader_learn2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_learn2.swift; sourceTree = "<group>"; };
 		FFA7454529A3E3CB0074AEBB /* GeometryReader-Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeometryReader-Learn.swift"; sourceTree = "<group>"; };
@@ -98,6 +104,16 @@
 			path = DragGesture;
 			sourceTree = "<group>";
 		};
+		FF6A5F9029B754CE0094B020 /* ManipulateData */ = {
+			isa = PBXGroup;
+			children = (
+				FF6A5F9129B755110094B020 /* UserModel.swift */,
+				FF6A5F9329B755960094B020 /* ArrayModificationViewModel.swift */,
+				FF6A5F9529B757BD0094B020 /* SortView.swift */,
+			);
+			path = ManipulateData;
+			sourceTree = "<group>";
+		};
 		FFA1FAE529AA1DE90084A923 /* LocalPushNotifications  */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +168,7 @@
 		FFF85FAA29950D0400ED6EAE /* PracticeSiwftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FF6A5F9029B754CE0094B020 /* ManipulateData */,
 				FFA1FAE529AA1DE90084A923 /* LocalPushNotifications  */,
 				FFFCBE8229A839C3000AC0ED /* Hashable */,
 				FFFCBE7F29A82717000AC0ED /* HapticsAndVibrations */,
@@ -323,6 +340,7 @@
 				FFFCBE7429A7DB35000AC0ED /* MaskModifier-Practice.swift in Sources */,
 				FFA7454829A3E6D60074AEBB /* GeometryReader-Example.swift in Sources */,
 				FFFCBE6F29A6129F000AC0ED /* MultipleSheets_Practice2_SolutionUsingMultipleSheets.swift in Sources */,
+				FF6A5F9229B755110094B020 /* UserModel.swift in Sources */,
 				FFFCBE7929A80C98000AC0ED /* SoundEffect-Practice.swift in Sources */,
 				FFFCBE6D29A61001000AC0ED /* MultipleSheets_Practice3_SolutionWithBinding.swift in Sources */,
 				FFE6059B299D41160002BA40 /* MagnificationGesture-Example.swift in Sources */,
@@ -336,7 +354,9 @@
 				FFFCBE7629A7DD83000AC0ED /* MaskModifier_Practice2.swift in Sources */,
 				FFF85FBF2995281600ED6EAE /* LongPressGesture-Example.swift in Sources */,
 				FF019593299EA91E00EA57FF /* DragGesture-Learn.swift in Sources */,
+				FF6A5F9429B755960094B020 /* ArrayModificationViewModel.swift in Sources */,
 				FFA7454629A3E3CB0074AEBB /* GeometryReader-Learn.swift in Sources */,
+				FF6A5F9629B757BD0094B020 /* SortView.swift in Sources */,
 				FFF85FBD299526B000ED6EAE /* LongPressGesture-learn.swift in Sources */,
 				FFA7454129A0F98D0074AEBB /* ScrollViewReader-learn.swift in Sources */,
 			);

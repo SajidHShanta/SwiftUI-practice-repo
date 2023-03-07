@@ -28,7 +28,7 @@ Three solutions are:
 
    _(Note: in order to test haptics, we need to run the app on a real device)_
 * ## Local Notification
-   [Local Notifications](PracticeSiwftUI/PracticeSiwftUI/LocalPushNotifications) are scheduled locally and delivered by the same device. First request permissions from the user and then schedule the local notifications with 3 different **triggers**.
+   [Local Notifications](PracticeSiwftUI/PracticeSiwftUI/LocalPushNotifications%20) are scheduled locally and delivered by the same device. First request permissions from the user and then schedule the local notifications with 3 different **triggers**.
    * [time](https://github.com/SajidHShanta/SwiftUI-practice-repo/commit/148f543bfdb06fbf814996e9e8ec757b69b844c2)
    * [calendar / date](https://github.com/SajidHShanta/SwiftUI-practice-repo/commit/0542ec2e90dbcaba81445d763906f19730789aba)
    * [location](https://github.com/SajidHShanta/SwiftUI-practice-repo/commit/60566ce4ebd2ddfb992839feb7bdbcaf94cebdee)
