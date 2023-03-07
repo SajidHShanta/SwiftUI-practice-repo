@@ -36,6 +36,14 @@ Three solutions are:
    and lastly we can [cancel all local notifications](https://github.com/SajidHShanta/SwiftUI-practice-repo/commit/455dd595dca070a95f462d9caee6068794b949c9).
 * ## Hashable protocol
    [Hashable protocol](PracticeSiwftUI/PracticeSiwftUI/Hashable) is very similar to the Identifiable protocol, which is another way to give a unique identifier to an object. When we use hash values in SwiftUI applications, it's usually to let the system identify which object is which.
+* ## Manipulate Data
+   Sometimes we need to [Manipulate Data](PracticeSiwftUI/PracticeSiwftUI/ManipulateData) in app before displaying content on the screen. 3 super-efficient modifiers that Apple provides us to Manipulate Data: 
+
+   * Sort - organize data by criteria
+   * Filter - create a subset of your data
+   * Map - transform data from one type to another
+
+   lastly, we combine all three modifiers.
 
 * ## ..
 
