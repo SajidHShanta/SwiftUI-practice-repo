@@ -15,6 +15,8 @@
 		FF6A5F9429B755960094B020 /* ArrayModificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9329B755960094B020 /* ArrayModificationViewModel.swift */; };
 		FF6A5F9829B76B5E0094B020 /* ManipulateDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9729B76B5E0094B020 /* ManipulateDataView.swift */; };
 		FF6A5F9A29B770420094B020 /* MappedArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9929B770420094B020 /* MappedArrayView.swift */; };
+		FFA08AA729C34F4300AC24FB /* BackgroundThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA08AA629C34F4300AC24FB /* BackgroundThreadView.swift */; };
+		FFA08AA929C34F5500AC24FB /* BackgroundThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA08AA829C34F5500AC24FB /* BackgroundThreadViewModel.swift */; };
 		FFA7454129A0F98D0074AEBB /* ScrollViewReader-learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454029A0F98D0074AEBB /* ScrollViewReader-learn.swift */; };
 		FFA7454329A0FCBE0074AEBB /* ScrollViewReader_learn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454229A0FCBE0074AEBB /* ScrollViewReader_learn2.swift */; };
 		FFA7454629A3E3CB0074AEBB /* GeometryReader-Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454529A3E3CB0074AEBB /* GeometryReader-Learn.swift */; };
@@ -50,6 +52,8 @@
 		FF6A5F9329B755960094B020 /* ArrayModificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayModificationViewModel.swift; sourceTree = "<group>"; };
 		FF6A5F9729B76B5E0094B020 /* ManipulateDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManipulateDataView.swift; sourceTree = "<group>"; };
 		FF6A5F9929B770420094B020 /* MappedArrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappedArrayView.swift; sourceTree = "<group>"; };
+		FFA08AA629C34F4300AC24FB /* BackgroundThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadView.swift; sourceTree = "<group>"; };
+		FFA08AA829C34F5500AC24FB /* BackgroundThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadViewModel.swift; sourceTree = "<group>"; };
 		FFA7454029A0F98D0074AEBB /* ScrollViewReader-learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollViewReader-learn.swift"; sourceTree = "<group>"; };
 		FFA7454229A0FCBE0074AEBB /* ScrollViewReader_learn2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_learn2.swift; sourceTree = "<group>"; };
 		FFA7454529A3E3CB0074AEBB /* GeometryReader-Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeometryReader-Learn.swift"; sourceTree = "<group>"; };
@@ -117,6 +121,15 @@
 			path = ManipulateData;
 			sourceTree = "<group>";
 		};
+		FFA08AA529C34F3100AC24FB /* BackgroundThread */ = {
+			isa = PBXGroup;
+			children = (
+				FFA08AA629C34F4300AC24FB /* BackgroundThreadView.swift */,
+				FFA08AA829C34F5500AC24FB /* BackgroundThreadViewModel.swift */,
+			);
+			path = BackgroundThread;
+			sourceTree = "<group>";
+		};
 		FFA1FAE529AA1DE90084A923 /* LocalPushNotifications  */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +184,7 @@
 		FFF85FAA29950D0400ED6EAE /* PracticeSiwftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FFA08AA529C34F3100AC24FB /* BackgroundThread */,
 				FF6A5F9029B754CE0094B020 /* ManipulateData */,
 				FFA1FAE529AA1DE90084A923 /* LocalPushNotifications  */,
 				FFFCBE8229A839C3000AC0ED /* Hashable */,
@@ -339,6 +353,7 @@
 				FFDF807529B3B58C004C50B9 /* LocalNotification-Learn.swift in Sources */,
 				FF019597299ED39000EA57FF /* DragGesture_Example_TinderCardSwipe.swift in Sources */,
 				FFFCBE8129A82742000AC0ED /* HapticsAndVibrations-Practice.swift in Sources */,
+				FFA08AA729C34F4300AC24FB /* BackgroundThreadView.swift in Sources */,
 				FF6A5F9829B76B5E0094B020 /* ManipulateDataView.swift in Sources */,
 				FF019599299FEF9400EA57FF /* DragGesture_Example_2.swift in Sources */,
 				FFFCBE7429A7DB35000AC0ED /* MaskModifier-Practice.swift in Sources */,
@@ -350,6 +365,7 @@
 				FFE6059B299D41160002BA40 /* MagnificationGesture-Example.swift in Sources */,
 				FFFCBE7129A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift in Sources */,
 				FFF85FAE29950D0400ED6EAE /* ContentView.swift in Sources */,
+				FFA08AA929C34F5500AC24FB /* BackgroundThreadViewModel.swift in Sources */,
 				FFF85FAC29950D0400ED6EAE /* PracticeSiwftUIApp.swift in Sources */,
 				FFFCBE8429A839D3000AC0ED /* Hashable-Learn.swift in Sources */,
 				FFE60599299CFF740002BA40 /* MagnificationGesture-learn.swift in Sources */,
