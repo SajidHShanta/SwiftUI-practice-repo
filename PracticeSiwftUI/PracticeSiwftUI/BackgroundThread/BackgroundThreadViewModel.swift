@@ -16,8 +16,14 @@ class BackgroundThreadViewModel: ObservableObject {
             // qos options: background, default, unspecified, userInitiated, utility
             let newData = self.downloadData()
             
+            print("Check1: is Main Thread: \(Thread.isMainThread)")
+            print("Check1: current thred: \(Thread.current)")
+            
             DispatchQueue.main.async {
                 self.dataArray = newData
+                
+                print("Check2: is Main Thread: \(Thread.isMainThread)")
+                print("Check2: current thred: \(Thread.current)")
             }
         }
     }
