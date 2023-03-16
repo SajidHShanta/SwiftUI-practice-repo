@@ -12,8 +12,10 @@ class BackgroundThreadViewModel: ObservableObject {
     @Published var dataArray: [String] = []
     
     func fetchData() {
-        let newData = downloadData()
-        dataArray = newData
+        DispatchQueue.global().async {
+            let newData = self.downloadData()
+            self.dataArray = newData
+        }
     }
     
     private func downloadData() -> [String] {
