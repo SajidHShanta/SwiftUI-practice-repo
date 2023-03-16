@@ -54,6 +54,8 @@ Three solutions are:
       
    * ### [Core Data Relationships](https://github.com/SajidHShanta/CoreData-SwiftUI/tree/main/CoreDataRelationships/CoreDataRelationships)
       Create and manage multiple Core Data entities that have relationships between them. We develop a mock application that contains three types of entities: Businesses, Departments, and Employees. These entities will have many relationships between them, including one-to-one and one-to-many relationships!
+* ## Multi Threading
+   [Multi Threading](PracticeSiwftUI/PracticeSiwftUI/BackgroundThread) with background threads and queues. By default, all code executed on the "main thread", however, if the main thread ever gets overwhelmed with tasks, it can slow down, freeze, or even crash our app. Apple provides us with easy access to many other threads that we can use to offload some of the work! How to add different threads, how to perform tasks on a background thread, and how to return back to the main thread afterward. We usually use Multi Threading in data intensive tasks, such as downloading data from the internet.
 * ## ..
 
 ## Acknowledgement
