@@ -12,7 +12,8 @@ class BackgroundThreadViewModel: ObservableObject {
     @Published var dataArray: [String] = []
     
     func fetchData() {
-        DispatchQueue.global().async {
+        DispatchQueue.global(qos: .background).async {
+            // qos options: background, default, unspecified, userInitiated, utility
             let newData = self.downloadData()
             
             DispatchQueue.main.async {
