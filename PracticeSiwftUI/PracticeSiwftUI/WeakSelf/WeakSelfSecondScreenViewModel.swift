@@ -12,11 +12,18 @@ class WeakSelfSecondScreenViewModel: ObservableObject {
     
     init() {
         print("initialize")
+        
+        let currentCount = UserDefaults.standard.integer(forKey: "count")
+        UserDefaults.standard.set(currentCount + 1, forKey: "count")
+        
         getData()
     }
     
     deinit {
         print("deinitialize")
+        
+        let currentCount = UserDefaults.standard.integer(forKey: "count")
+        UserDefaults.standard.set(currentCount - 1, forKey: "count")
     }
     
     func getData() {
