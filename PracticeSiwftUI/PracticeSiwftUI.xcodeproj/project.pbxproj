@@ -17,6 +17,8 @@
 		FF6A5F9A29B770420094B020 /* MappedArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A5F9929B770420094B020 /* MappedArrayView.swift */; };
 		FFA08AA729C34F4300AC24FB /* BackgroundThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA08AA629C34F4300AC24FB /* BackgroundThreadView.swift */; };
 		FFA08AA929C34F5500AC24FB /* BackgroundThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA08AA829C34F5500AC24FB /* BackgroundThreadViewModel.swift */; };
+		FFA08AAC29C4DA9500AC24FB /* WeakSelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA08AAB29C4DA9500AC24FB /* WeakSelfView.swift */; };
+		FFA08AAE29C4DBF400AC24FB /* WeakSelfSecondScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA08AAD29C4DBF400AC24FB /* WeakSelfSecondScreenViewModel.swift */; };
 		FFA7454129A0F98D0074AEBB /* ScrollViewReader-learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454029A0F98D0074AEBB /* ScrollViewReader-learn.swift */; };
 		FFA7454329A0FCBE0074AEBB /* ScrollViewReader_learn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454229A0FCBE0074AEBB /* ScrollViewReader_learn2.swift */; };
 		FFA7454629A3E3CB0074AEBB /* GeometryReader-Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454529A3E3CB0074AEBB /* GeometryReader-Learn.swift */; };
@@ -54,6 +56,8 @@
 		FF6A5F9929B770420094B020 /* MappedArrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappedArrayView.swift; sourceTree = "<group>"; };
 		FFA08AA629C34F4300AC24FB /* BackgroundThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadView.swift; sourceTree = "<group>"; };
 		FFA08AA829C34F5500AC24FB /* BackgroundThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadViewModel.swift; sourceTree = "<group>"; };
+		FFA08AAB29C4DA9500AC24FB /* WeakSelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfView.swift; sourceTree = "<group>"; };
+		FFA08AAD29C4DBF400AC24FB /* WeakSelfSecondScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfSecondScreenViewModel.swift; sourceTree = "<group>"; };
 		FFA7454029A0F98D0074AEBB /* ScrollViewReader-learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollViewReader-learn.swift"; sourceTree = "<group>"; };
 		FFA7454229A0FCBE0074AEBB /* ScrollViewReader_learn2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_learn2.swift; sourceTree = "<group>"; };
 		FFA7454529A3E3CB0074AEBB /* GeometryReader-Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeometryReader-Learn.swift"; sourceTree = "<group>"; };
@@ -130,6 +134,15 @@
 			path = BackgroundThread;
 			sourceTree = "<group>";
 		};
+		FFA08AAA29C4DA6D00AC24FB /* WeakSelf */ = {
+			isa = PBXGroup;
+			children = (
+				FFA08AAB29C4DA9500AC24FB /* WeakSelfView.swift */,
+				FFA08AAD29C4DBF400AC24FB /* WeakSelfSecondScreenViewModel.swift */,
+			);
+			path = WeakSelf;
+			sourceTree = "<group>";
+		};
 		FFA1FAE529AA1DE90084A923 /* LocalPushNotifications  */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +197,7 @@
 		FFF85FAA29950D0400ED6EAE /* PracticeSiwftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FFA08AAA29C4DA6D00AC24FB /* WeakSelf */,
 				FFA08AA529C34F3100AC24FB /* BackgroundThread */,
 				FF6A5F9029B754CE0094B020 /* ManipulateData */,
 				FFA1FAE529AA1DE90084A923 /* LocalPushNotifications  */,
@@ -352,6 +366,7 @@
 				FFA7454329A0FCBE0074AEBB /* ScrollViewReader_learn2.swift in Sources */,
 				FFDF807529B3B58C004C50B9 /* LocalNotification-Learn.swift in Sources */,
 				FF019597299ED39000EA57FF /* DragGesture_Example_TinderCardSwipe.swift in Sources */,
+				FFA08AAC29C4DA9500AC24FB /* WeakSelfView.swift in Sources */,
 				FFFCBE8129A82742000AC0ED /* HapticsAndVibrations-Practice.swift in Sources */,
 				FFA08AA729C34F4300AC24FB /* BackgroundThreadView.swift in Sources */,
 				FF6A5F9829B76B5E0094B020 /* ManipulateDataView.swift in Sources */,
@@ -372,6 +387,7 @@
 				FFFCBE6B29A5384F000AC0ED /* MultipleSheets_Practice1_Error_version.swift in Sources */,
 				FF019590299E9FE100EA57FF /* RotationGesture-Learn.swift in Sources */,
 				FFFCBE7629A7DD83000AC0ED /* MaskModifier_Practice2.swift in Sources */,
+				FFA08AAE29C4DBF400AC24FB /* WeakSelfSecondScreenViewModel.swift in Sources */,
 				FFF85FBF2995281600ED6EAE /* LongPressGesture-Example.swift in Sources */,
 				FF019593299EA91E00EA57FF /* DragGesture-Learn.swift in Sources */,
 				FF6A5F9429B755960094B020 /* ArrayModificationViewModel.swift in Sources */,
