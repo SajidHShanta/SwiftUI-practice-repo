@@ -27,6 +27,9 @@ class WeakSelfSecondScreenViewModel: ObservableObject {
     }
     
     func getData() {
-        data = "new data"
+        //strong reference with 'self'
+        DispatchQueue.main.asyncAfter(deadline: .now() + 500) {
+            self.data = "new data"
+        }
     }
 }
