@@ -59,6 +59,8 @@ Three solutions are:
 * ## Weak Self
    We use [Weak references](PracticeSiwftUI/PracticeSiwftUI/WeakSelf) instead of "strong references" to keep Automatic Reference Counting (ARC) count low. Swift uses Automatic Reference Counting (ARC) to manage app’s memory usage. As a developer, we need to try to keep the ARC count as low as possible, which will keep app running fast and efficiently.
    [NB: we use weak self, while dealing with large data]
+* ## Typealias
+   We use [Typealias](PracticeSiwftUI/PracticeSiwftUI/Typealias) to create an alias (another name) for an existing type! This is used much more frequently in large projects / codebases when it becomes more efficient to create a new name for a type rather than (1) a totally new type or (2) refactoring code.
 * ## ..
 
 ## Acknowledgement
