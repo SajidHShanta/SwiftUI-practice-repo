@@ -17,8 +17,14 @@ class EscapingViewModel: ObservableObject {
 //            text = returnedData
 //        }
         
-        downloadData3 { returnedData in
-            self.text = returnedData
+        // using strong references
+//        downloadData3 { returnedData in
+//            self.text = returnedData
+//        }
+        
+        // using Weak references
+        downloadData3 { [weak self] returnedData in
+            self?.text = returnedData
         }
     }
     
