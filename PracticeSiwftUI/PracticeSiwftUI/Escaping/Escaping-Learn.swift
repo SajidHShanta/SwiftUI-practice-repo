@@ -11,7 +11,15 @@ class EscapingViewModel: ObservableObject {
     @Published var text: String = "Hello"
     
     func getData() {
-        text = downloadData2()
+//        text = downloadData()
+        
+//        downloadData2 { returnedData in
+//            text = returnedData
+//        }
+        
+        downloadData3 { returnedData in
+            self.text = returnedData
+        }
     }
     
     func downloadData() -> String {
@@ -19,9 +27,23 @@ class EscapingViewModel: ObservableObject {
     }
     
     //recreate problem / error
-    func downloadData2() -> String {
+//    func downloadData2() -> String {
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+//            return "New Data"
+//        }
+//    }
+    
+//    func downloadData2(completionHandler: (_ data: String) -> Void) {
+//        // we can replace Void with '()'
+//        //ex: (completionHandler: (_ data: String) -> ())
+//
+//        completionHandler("New Data")
+//    }
+    
+    // solve with EscapingClosure
+    func downloadData3(completionHandler: @escaping (_ data: String) -> ()) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            return "New Data"
+            completionHandler("New Data")
         }
     }
 }
