@@ -27,7 +27,11 @@ class EscapingViewModel: ObservableObject {
 //            self?.text = returnedData
 //        }
         
-        downloadData4 { [weak self] returnedResult in
+//        downloadData4 { [weak self] returnedResult in
+//            self?.text = returnedResult.data
+//        }
+        
+        downloadData5 { [weak self] returnedResult in
             self?.text = returnedResult.data
         }
     }
@@ -64,12 +68,22 @@ class EscapingViewModel: ObservableObject {
             completionHandler(result)
         }
     }
+    
+    // more cleaner version using type alias
+    func downloadData5(completionHandler: @escaping DownloadCompletion) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            let result = DownloadResult(data: "New Data")
+            completionHandler(result)
+        }
+    }
 }
 
 //model
 struct DownloadResult {
     let data: String
 }
+
+typealias DownloadCompletion = (DownloadResult) -> ()
 
 struct Escaping_Learn: View {
     @StateObject var vm = EscapingViewModel()
