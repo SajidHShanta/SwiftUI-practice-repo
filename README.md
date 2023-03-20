@@ -61,6 +61,9 @@ Three solutions are:
    [NB: we use weak self, while dealing with large data]
 * ## Typealias
    We use [Typealias](PracticeSiwftUI/PracticeSiwftUI/Typealias) to create an alias (another name) for an existing type! This is used much more frequently in large projects / codebases when it becomes more efficient to create a new name for a type rather than (1) a totally new type or (2) refactoring code.
+* ## Escaping Closures
+   We use [@escaping closures](PracticeSiwftUI/PracticeSiwftUI/Escaping) to deal with returning from functions when using asynchronous code. This is code that does NOT execute immediately, but rather at a future point in time. This becomes extremely important when we need to download data from the internet!
+
 * ## ..
 
 ## Acknowledgement
