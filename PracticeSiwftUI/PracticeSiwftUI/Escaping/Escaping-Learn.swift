@@ -23,8 +23,12 @@ class EscapingViewModel: ObservableObject {
 //        }
         
         // using Weak references
-        downloadData3 { [weak self] returnedData in
-            self?.text = returnedData
+//        downloadData3 { [weak self] returnedData in
+//            self?.text = returnedData
+//        }
+        
+        downloadData4 { [weak self] returnedResult in
+            self?.text = returnedResult.data
         }
     }
     
@@ -52,6 +56,19 @@ class EscapingViewModel: ObservableObject {
             completionHandler("New Data")
         }
     }
+    
+    // refactor / cleaner version of downloadData3
+    func downloadData4(completionHandler: @escaping (DownloadResult) -> ()) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            let result = DownloadResult(data: "New Data")
+            completionHandler(result)
+        }
+    }
+}
+
+//model
+struct DownloadResult {
+    let data: String
 }
 
 struct Escaping_Learn: View {
