@@ -25,6 +25,9 @@
 		FFA7454629A3E3CB0074AEBB /* GeometryReader-Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454529A3E3CB0074AEBB /* GeometryReader-Learn.swift */; };
 		FFA7454829A3E6D60074AEBB /* GeometryReader-Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA7454729A3E6D60074AEBB /* GeometryReader-Example.swift */; };
 		FFDECC7929C8A9AE000EB7A9 /* Escaping-Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDECC7829C8A9AE000EB7A9 /* Escaping-Learn.swift */; };
+		FFDECC7C29CA1E84000EB7A9 /* Codable-Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDECC7B29CA1E84000EB7A9 /* Codable-Learn.swift */; };
+		FFDECC7E29CA2182000EB7A9 /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDECC7D29CA2182000EB7A9 /* CustomerModel.swift */; };
+		FFDECC8029CA21A6000EB7A9 /* CodableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDECC7F29CA21A6000EB7A9 /* CodableViewModel.swift */; };
 		FFDF807529B3B58C004C50B9 /* LocalNotification-Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDF807429B3B58C004C50B9 /* LocalNotification-Learn.swift */; };
 		FFE60599299CFF740002BA40 /* MagnificationGesture-learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE60598299CFF740002BA40 /* MagnificationGesture-learn.swift */; };
 		FFE6059B299D41160002BA40 /* MagnificationGesture-Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6059A299D41160002BA40 /* MagnificationGesture-Example.swift */; };
@@ -66,6 +69,9 @@
 		FFA7454529A3E3CB0074AEBB /* GeometryReader-Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeometryReader-Learn.swift"; sourceTree = "<group>"; };
 		FFA7454729A3E6D60074AEBB /* GeometryReader-Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeometryReader-Example.swift"; sourceTree = "<group>"; };
 		FFDECC7829C8A9AE000EB7A9 /* Escaping-Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Escaping-Learn.swift"; sourceTree = "<group>"; };
+		FFDECC7B29CA1E84000EB7A9 /* Codable-Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable-Learn.swift"; sourceTree = "<group>"; };
+		FFDECC7D29CA2182000EB7A9 /* CustomerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerModel.swift; sourceTree = "<group>"; };
+		FFDECC7F29CA21A6000EB7A9 /* CodableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableViewModel.swift; sourceTree = "<group>"; };
 		FFDF807429B3B58C004C50B9 /* LocalNotification-Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalNotification-Learn.swift"; sourceTree = "<group>"; };
 		FFE60598299CFF740002BA40 /* MagnificationGesture-learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MagnificationGesture-learn.swift"; sourceTree = "<group>"; };
 		FFE6059A299D41160002BA40 /* MagnificationGesture-Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MagnificationGesture-Example.swift"; sourceTree = "<group>"; };
@@ -189,6 +195,16 @@
 			path = Escaping;
 			sourceTree = "<group>";
 		};
+		FFDECC7A29CA1E6F000EB7A9 /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				FFDECC7B29CA1E84000EB7A9 /* Codable-Learn.swift */,
+				FFDECC7D29CA2182000EB7A9 /* CustomerModel.swift */,
+				FFDECC7F29CA21A6000EB7A9 /* CodableViewModel.swift */,
+			);
+			path = Codable;
+			sourceTree = "<group>";
+		};
 		FFE60597299CFEF90002BA40 /* MagnificationGesture */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +233,7 @@
 		FFF85FAA29950D0400ED6EAE /* PracticeSiwftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FFDECC7A29CA1E6F000EB7A9 /* Codable */,
 				FFDECC7729C8A993000EB7A9 /* Escaping */,
 				FFA08AAF29C7271400AC24FB /* Typealias */,
 				FFA08AAA29C4DA6D00AC24FB /* WeakSelf */,
@@ -402,6 +419,7 @@
 				FFE6059B299D41160002BA40 /* MagnificationGesture-Example.swift in Sources */,
 				FFFCBE7129A61599000AC0ED /* MultipleSheets_Practice4_SolutionWithItem.swift in Sources */,
 				FFDECC7929C8A9AE000EB7A9 /* Escaping-Learn.swift in Sources */,
+				FFDECC7C29CA1E84000EB7A9 /* Codable-Learn.swift in Sources */,
 				FFF85FAE29950D0400ED6EAE /* ContentView.swift in Sources */,
 				FFA08AA929C34F5500AC24FB /* BackgroundThreadViewModel.swift in Sources */,
 				FFF85FAC29950D0400ED6EAE /* PracticeSiwftUIApp.swift in Sources */,
@@ -409,6 +427,8 @@
 				FFE60599299CFF740002BA40 /* MagnificationGesture-learn.swift in Sources */,
 				FFFCBE6B29A5384F000AC0ED /* MultipleSheets_Practice1_Error_version.swift in Sources */,
 				FF019590299E9FE100EA57FF /* RotationGesture-Learn.swift in Sources */,
+				FFDECC7E29CA2182000EB7A9 /* CustomerModel.swift in Sources */,
+				FFDECC8029CA21A6000EB7A9 /* CodableViewModel.swift in Sources */,
 				FFFCBE7629A7DD83000AC0ED /* MaskModifier_Practice2.swift in Sources */,
 				FFA08AAE29C4DBF400AC24FB /* WeakSelfSecondScreenViewModel.swift in Sources */,
 				FFF85FBF2995281600ED6EAE /* LongPressGesture-Example.swift in Sources */,
