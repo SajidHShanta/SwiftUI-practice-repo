@@ -31,7 +31,7 @@ class CodableViewModel: ObservableObject {
 //
 //        }
         
-        // decode JSON data using Decodable
+        // decode from JSON data using Decodable
         do {
             self.customer = try JSONDecoder().decode(CustomerModel.self, from: data)
         } catch let error {
@@ -40,14 +40,19 @@ class CodableViewModel: ObservableObject {
     }
     
     func getJSONData() -> Data? {
-        let disctionary: [String: Any] = [
-            "id": "",
-            "name": "Sajid",
-            "point": 32,
-            "isPremium": false
-        ]
+        // encode into json
+        let customer = CustomerModel(id:"", name: "Sami", point: 32, isPremium: false)
+        let jsonData = try? JSONEncoder().encode(customer)
         
-        let jsonData = try? JSONSerialization.data(withJSONObject: disctionary)
+        // decode
+//        let disctionary: [String: Any] = [
+//            "id": "",
+//            "name": "Sajid",
+//            "point": 32,
+//            "isPremium": false
+//        ]
+//
+//        let jsonData = try? JSONSerialization.data(withJSONObject: disctionary)
         
         return jsonData
     }
