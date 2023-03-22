@@ -63,6 +63,8 @@ Three solutions are:
    We use [Typealias](PracticeSiwftUI/PracticeSiwftUI/Typealias) to create an alias (another name) for an existing type! This is used much more frequently in large projects / codebases when it becomes more efficient to create a new name for a type rather than (1) a totally new type or (2) refactoring code.
 * ## Escaping Closures
    We use [@escaping closures](PracticeSiwftUI/PracticeSiwftUI/Escaping) to deal with returning from functions when using asynchronous code. This is code that does NOT execute immediately, but rather at a future point in time. This becomes extremely important when we need to download data from the internet!
+* ## Codable, Decodable, and Encodabl
+   We use [Codable = (Decodable + Encodabl)](PracticeSiwftUI/PracticeSiwftUI/Codable) to "decode" and "encode" data in our application. This is especially useful for downloading data from the internet, because when we download data it will come as a foreign data type (usually JSON data). We then use Codable to transform (or "decode") the JSON data into a data type that we have in our iOS application. Here I explore how Codable is actually using Decodable and Encodable protocols behind the scenes to transform the data and then learn how to implement Codable itself.
 
 * ## ..
 
