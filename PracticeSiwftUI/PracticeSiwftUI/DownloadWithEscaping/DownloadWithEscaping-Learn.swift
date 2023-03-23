@@ -16,6 +16,8 @@ struct PostModel: Identifiable, Codable {
 }
 
 class DownloadWithEscapingViewModel: ObservableObject {
+    @Published var posts: [PostModel] = []
+    
     init() {
         getData()
     }
@@ -23,6 +25,7 @@ class DownloadWithEscapingViewModel: ObservableObject {
     func getData() {
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts/1") else { return }
         
+        // dataTast() goes to BACKGROUND thread by default
         URLSession.shared.dataTask(with: url) { data, response, error in
             
             guard let data = data else {
@@ -50,6 +53,15 @@ class DownloadWithEscapingViewModel: ObservableObject {
             
             let jsonString = String(data: data, encoding: .utf8)
             print(jsonString ?? "no json data")
+            
+            // decode downloaded JSON data to PostModel
+            guard let newPost = try? JSONDecoder().decode(PostModel.self, from: data) else {
+                return
+            }
+            // back to main thread
+            DispatchQueue.main.async { [weak self] in
+                self?.posts.append(newPost)
+            }
             
         }.resume()
     }
