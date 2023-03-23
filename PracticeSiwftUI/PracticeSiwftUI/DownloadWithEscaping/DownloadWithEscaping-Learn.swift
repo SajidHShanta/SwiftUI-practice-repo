@@ -7,6 +7,14 @@
 
 import SwiftUI
 
+// https://app.quicktype.io/
+struct PostModel: Identifiable, Codable {
+    let userId: Int
+    let id: Int
+    let title: String
+    let body: String
+}
+
 class DownloadWithEscapingViewModel: ObservableObject {
     init() {
         getData()
