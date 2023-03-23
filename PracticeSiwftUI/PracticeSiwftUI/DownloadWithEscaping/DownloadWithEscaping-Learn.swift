@@ -48,11 +48,11 @@ class DownloadWithEscapingViewModel: ObservableObject {
                 return
             }
             
-            print("Successfully downloaded data!")
-            print(data)
-            
-            let jsonString = String(data: data, encoding: .utf8)
-            print(jsonString ?? "no json data")
+//            print("Successfully downloaded data!")
+//            print(data)
+//
+//            let jsonString = String(data: data, encoding: .utf8)
+//            print(jsonString ?? "no json data")
             
             // decode downloaded JSON data to PostModel
             guard let newPost = try? JSONDecoder().decode(PostModel.self, from: data) else {
@@ -71,7 +71,14 @@ struct DownloadWithEscaping_Learn: View {
     @StateObject var vm = DownloadWithEscapingViewModel()
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(vm.posts) { post in
+            VStack(alignment: .leading, spacing: 20.0) {
+                Text(post.title)
+                    .font(.headline)
+                Text(post.body)
+                    .foregroundColor(.secondary)
+            }
+        }
     }
 }
 
