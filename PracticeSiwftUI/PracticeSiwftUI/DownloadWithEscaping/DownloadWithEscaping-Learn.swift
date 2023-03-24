@@ -23,17 +23,17 @@ class DownloadWithEscapingViewModel: ObservableObject {
     }
     
     func getData() {
-        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts/1") else { return }
+        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else { return }
         
         downloadData(formatURL: url) { returnedData in
             if let data = returnedData {
                 // decode downloaded JSON data to PostModel
-                guard let newPost = try? JSONDecoder().decode(PostModel.self, from: data) else {
+                guard let newPosts = try? JSONDecoder().decode([PostModel].self, from: data) else {
                     return
                 }
                 // back to main thread
                 DispatchQueue.main.async { [weak self] in
-                    self?.posts.append(newPost)
+                    self?.posts = newPosts
                 }
             } else {
                 print("Error on returning data")
