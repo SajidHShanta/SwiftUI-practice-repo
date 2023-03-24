@@ -25,6 +25,46 @@ class DownloadWithEscapingViewModel: ObservableObject {
     func getData() {
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts/1") else { return }
         
+        downloadData(formatURL: url) { returnedData in
+            if let data = returnedData {
+                // decode downloaded JSON data to PostModel
+                guard let newPost = try? JSONDecoder().decode(PostModel.self, from: data) else {
+                    return
+                }
+                // back to main thread
+                DispatchQueue.main.async { [weak self] in
+                    self?.posts.append(newPost)
+                }
+            } else {
+                print("Error on returning data")
+            }
+        }
+    }
+    
+    func downloadData(formatURL url: URL, completionHandler: @escaping (_ data: Data?) -> ()) {
+        // dataTast() goes to BACKGROUND thread by default
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            
+            guard
+                let data = data,
+                error == nil,
+                let response = response as? HTTPURLResponse,
+                response.statusCode >= 200 && response.statusCode < 300 else {
+                
+                print("Error on downloading data")
+                
+                completionHandler(nil)
+                return
+            }
+            
+            completionHandler(data)
+            
+        }.resume()
+    }
+    
+    func OLDgetData() {
+        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts/1") else { return }
+        
         // dataTast() goes to BACKGROUND thread by default
         URLSession.shared.dataTask(with: url) { data, response, error in
             
@@ -36,26 +76,6 @@ class DownloadWithEscapingViewModel: ObservableObject {
                 print("Error on downloading data")
                 return
             }
-            
-//            guard let data = data else {
-//                print("No data")
-//                return
-//            }
-//
-//            guard error == nil else {
-//                print("Error: \(String(describing: error))")
-//                return
-//            }
-//
-//            guard let response = response as? HTTPURLResponse else {
-//                print("Invalid response")
-//                return
-//            }
-//
-//            guard response.statusCode >= 200 && response.statusCode < 300 else {
-//                print("Status code sholud be 2xx, but here \(response.statusCode)")
-//                return
-//            }
             
 //            print("Successfully downloaded data!")
 //            print(data)
